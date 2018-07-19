@@ -4,7 +4,7 @@ Bash Menu is a Bash script to easily allow you to add a menu to your own scripts
 
 You can add an interactive menu like the following to your own scripts with just a few simple lines:
 
-[[IMG]]
+![Bash Menu](https://raw.githubusercontent.com/barbw1re/bash-menu/bash-menu-meta/bash-menu.png)
 
 
 ## Features
