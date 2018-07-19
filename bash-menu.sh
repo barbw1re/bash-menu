@@ -9,8 +9,8 @@
 #
 # Public Variables to Override
 #
-# TODO: Should these get passed into menuInit() rather than be set as global
-#       script variables?
+# Should these get passed into menuInit() rather than be set as global
+# script variables?
 #
 #   menuTop     # Top row of menu (defaults to row 2)
 #   menuLeft    # Left offset for menu item text (defaults to column 15)
@@ -30,7 +30,7 @@
 
 # Ensure we are running under bash (will not work under sh or dash etc)
 if [ "$BASH_SOURCE" = "" ]; then
-    echo "ERROR: bash-menu required to be running under bash"
+    echo "ERROR: bash-menu requires to be running under bash"
     exit 1
 fi
 

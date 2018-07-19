@@ -2,7 +2,7 @@
 
 Bash Menu is a Bash script to easily allow you to add a menu to your own scripts.
 
-You can add an interactive menu like the following to your own scripts with just a few simple lines:
+You can add an interactive menu like the following to your own scripts with just a few simple steps:
 
 ![Bash Menu](https://raw.githubusercontent.com/barbw1re/bash-menu/bash-menu-meta/bash-menu.png)
 
@@ -100,8 +100,8 @@ There are a few variables used by Bash Menu which you can override and affect ho
 
 * menuTop - The top row of menu (defaults to row 2, ie 1 blank line at the top).
 * menuLeft - The left column where the menu item label text should start (defaults to column 15).
-* menuWidth - The width of the menu box - not including the left margin (defaults to 42 columns).
-* menuMargin - The left gap before drawing the menu border defaults to column 4)
+* menuWidth - The width of the menu box - not including the left margin, but including the border (defaults to 42 columns).
+* menuMargin - The left gap before drawing the menu border (defaults to column 4)
 
 **Colours**
 (See top of `bash-draw.sh` for available colours)
