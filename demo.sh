@@ -49,6 +49,10 @@ actionC() {
     return 1
 }
 
+actionX() {
+    return 0
+}
+
 
 ################################
 ## Setup Example Menu
@@ -79,7 +83,7 @@ menuActions=(
     actionC
     actionA
     actionB
-    "return 0"
+    actionX
 )
 
 ## Override some menu defaults
@@ -87,7 +91,7 @@ menuTitle=" Demo of bash-menu"
 menuFooter=" Enter=Select, Navigate via Up/Down/First number/letter"
 menuWidth=60
 menuLeft=25
-menuHighlight=$DRAW_COL_BLUE
+menuHighlight=$DRAW_COL_YELLOW
 
 
 ################################
