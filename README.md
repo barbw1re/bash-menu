@@ -147,5 +147,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-Bash Menu was only made possible (or at least, was made with less wheel re-inventing) by the knowledge provided at [top-scripts blog](http://top-scripts.blogspot.com/2011/01/blog-post.html).
+Bash Menu was only made possible (or at least, was made with less wheel re-inventing) by the knowledge provided by this [top-scripts blog post](http://top-scripts.blogspot.com/2011/01/blog-post.html).
 
