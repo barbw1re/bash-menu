@@ -76,6 +76,16 @@ menuItems=(
     "Q. Exit  "
 )
 
+## Menu Item Preview Messages
+menuPreviewItems=(
+    "Text for item 1"
+    "Text for item 2"
+    "Text for item 3"
+    "Text for item 4"
+    "Text for item 5"
+    "[quit]         "
+)
+
 ## Menu Item Actions
 menuActions=(
     actionA

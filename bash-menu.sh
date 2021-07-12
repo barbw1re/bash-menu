@@ -55,6 +55,7 @@ fi
 ################################
 declare -a menuItems
 declare -a menuActions
+declare -a menuPreviewItems
 
 menuHeaderText=""
 menuFooterText=""
@@ -163,6 +164,15 @@ menu_HighlightItem() {
     drawHighlightAt $top $menuLeft "$menuText"
 }
 
+# Draw the menu item preview line
+drawPreviewText() {
+    local item=$1
+    local menuSize=$((menuItemCount+2))
+    local menuPreview=$((menuSize+menuTop+3))
+    local menuPreviewText=`printf "%-${menuWidth}s" "${menuPreviewItems[$item]}"`
+
+    drawHighlightAt $menuPreview $menuMargin "$menuPreviewText" 1
+}
 
 ################################
 # Wait for and process user input
@@ -244,6 +254,8 @@ menuLoop() {
     menu_Display
 
     while [[ $running -eq 1 ]]; do
+        drawPreviewText $choice
+
         # Enable case insensitive matching
         local caseMatch=`shopt -p nocasematch`
         shopt -s nocasematch
